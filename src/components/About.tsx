@@ -27,9 +27,9 @@ const About = () => {
   ];
 
   const stats = [
-    { number: "100+", label: "AI Models Deployed" },
-    { number: "50+", label: "Businesses Transformed" },
-    { number: "95%", label: "Client Satisfaction" },
+    { number: "∞", label: "Possibilities Ahead" },
+    { number: "Fresh", label: "Innovative Approach" },
+    { number: "100%", label: "Dedication" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -41,8 +41,8 @@ const About = () => {
             <span className="text-gradient">About Build2Automate</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            We are a cutting-edge AI automation agency dedicated to transforming businesses through intelligent automation solutions. 
-            Our mission is to empower companies to achieve unprecedented efficiency and growth through the strategic implementation of AI technologies.
+            We are a fresh AI automation agency focused on bringing the latest AI technologies to businesses ready for transformation. 
+            Our passion is helping companies discover the potential of AI automation to streamline operations and unlock new growth opportunities.
           </p>
         </div>
 
@@ -85,9 +85,9 @@ const About = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-gradient">Our Mission</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                "To democratize the power of AI automation, making cutting-edge technology accessible to businesses of all sizes. 
-                We believe that every company deserves the opportunity to leverage AI to streamline operations, reduce costs, 
-                and unlock new possibilities for growth and innovation."
+                "To make AI automation accessible and practical for businesses ready to embrace the future. 
+                We're committed to learning, growing, and delivering solutions that create real value, 
+                helping companies take their first steps into intelligent automation."
               </p>
             </CardContent>
           </Card>
