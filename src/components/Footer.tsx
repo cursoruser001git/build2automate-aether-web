@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Mail, Linkedin, Twitter, Github } from "lucide-react";
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold text-gradient mb-4">
-              Build2Automate
+              build2automate.online
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Transforming businesses through intelligent AI automation solutions. 
@@ -81,19 +81,9 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center text-muted-foreground">
                 <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:hello@build2automate.com" className="hover:text-primary transition-colors">
-                  hello@build2automate.com
+                <a href="mailto:contact@build2automate.online" className="hover:text-primary transition-colors">
+                  contact@build2automate.online
                 </a>
-              </li>
-              <li className="flex items-center text-muted-foreground">
-                <Phone className="h-4 w-4 mr-2" />
-                <a href="tel:+15551234567" className="hover:text-primary transition-colors">
-                  +1 (555) 123-4567
-                </a>
-              </li>
-              <li className="flex items-center text-muted-foreground">
-                <MapPin className="h-4 w-4 mr-2" />
-                <span>San Francisco, CA</span>
               </li>
             </ul>
           </div>
@@ -101,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-border/50 mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Build2Automate. All rights reserved. | Transforming businesses through AI automation.
+            © 2025 build2automate.online. All rights reserved. | Transforming businesses through AI automation.
           </p>
         </div>
       </div>
