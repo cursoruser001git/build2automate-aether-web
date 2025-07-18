@@ -22,9 +22,9 @@ const Hero = () => {
         <div className="text-center">
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight px-2">
-              <span className="text-gradient">Transform Your Business</span>
+              <span className="text-foreground">Transform Your Business</span>
               <br />
-              <span className="text-foreground">With AI Automation</span>
+              <span className="text-gradient">With AI Automation</span>
             </h1>
           </div>
           
